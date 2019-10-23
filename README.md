@@ -4,9 +4,10 @@
 
 1. Press the above `Deploy to IBM Cloud` button and then...
 
+   * Click `Delivery Pipeline` icon.
    * Click `Create+` to create an IBM Cloud API Key.
    * Select your region, organization, and space (or use the defaults).
-   * Click `Deploy`.
+   * Click `Create` on top right corner to create a ToolChain.
 
 2. In Toolchains, click on `Delivery Pipeline` to watch while the app is deployed. 
 
