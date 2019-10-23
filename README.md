@@ -20,6 +20,6 @@
 
    ![toolchain-pipeline](doc/images/2.png)
 
-5. Attempt the Quiz in the deployed app and submit the response to view your score!
+5. Attempt the Questions in the deployed app and submit the questionnaire!
 
-   ![toolchain-pipeline](doc/images/3.png)
+   ![toolchain-pipeline](doc/images/4.png)
