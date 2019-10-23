@@ -14,119 +14,63 @@
 
     <div class="container">
         <div class="py-5 text-center">
-        <h2>Cloud Computing Quiz</h2>
-        <p class="lead">Answer the multiple choice questions to earn goodies!</p>
+        <h2>IBM Workshop Quiz</h2>
+        <p class="lead">Answer the multiple choice questions to get ready for workshop!</p>
         </div>
         <form method="POST" action="/quizsubmission">
         <p class="lead"></p>
-        
-        Enter your Email ID:<br/>    
+
+        Enter your Email ID:<br/>
         <input type="text" id="cloudemail" name="cloudemail" class="form-control" placeholder="Please enter your IBM Cloud Email ID" required>
-        <br/>   
-        1. You need an SSH server to get a bash shell inside a container.<br/>
+        <br/>
+        1. What are your areas of Interest?<br/>
         <div class="radio">
         <label>
-        <input type="radio" name="quiz_1" id="quiz_1" value="a" required> True
+        <input type="radio" name="quiz_1" id="quiz_1" value="a" required> Artificial Intelligence
         </label>
         </div>
         <div class="radio">
         <label>
-        <input type="radio" name="quiz_1" id="quiz_1" value="b">False
-        </label>
-        </div>
-        <br/> 
-        2. Open-source container orchestration platforms, such as Docker Swarm and Kubernetes, provide what to their users?<br/>
-        <div class="radio">
-        <label>
-        <input type="radio" name="quiz_2" id="quiz_2" value="a" required> A way to orchestrate different flavors of the same application in a way that maximizes reuse.
+        <input type="radio" name="quiz_1" id="quiz_1" value="b"> Data Science
         </label>
         </div>
         <div class="radio">
         <label>
-        <input type="radio" name="quiz_2" id="quiz_2" value="b">A fully hosted solution that is production-ready for deploying enterprise grade applications.
+        <input type="radio" name="quiz_1" id="quiz_1" value="c"> Analytics
         </label>
         </div>
         <div class="radio">
         <label>
-        <input type="radio" name="quiz_2" id="quiz_2" value="c">An easy-to-use GUI for operators to click and deploy applications.
-        </label>
-        </div>
-        <div class="radio">
-        <label>
-        <input type="radio" name="quiz_2" id="quiz_2" value="d">A platform to help solve problems of running distributed containerized applications in production, such as high availability, scaling, fault tolerance, and scheduling.
+        <input type="radio" name="quiz_1" id="quiz_1" value="d"> Blockchain
         </label>
         </div>
         <br/>
-        3. Which IBM Cloud compute option provides a serverless environment where you provide code snippets that run as a result of events?<br/>
+        2. Provide your experience level for above skill?<br/>
         <div class="radio">
         <label>
-        <input type="radio" name="quiz_3" id="quiz_3" value="a" required> Cloud Foundry
+        <input type="radio" name="quiz_2" id="quiz_2" value="a" required> Beginner
         </label>
         </div>
         <div class="radio">
         <label>
-        <input type="radio" name="quiz_3" id="quiz_3" value="b"> Bare Metal Servers
+        <input type="radio" name="quiz_2" id="quiz_2" value="b"> Intermediate
         </label>
         </div>
         <div class="radio">
         <label>
-        <input type="radio" name="quiz_3" id="quiz_3" value="c"> OpenWhisk
+        <input type="radio" name="quiz_2" id="quiz_2" value="c"> Advanced
         </label>
         </div>
         <div class="radio">
         <label>
-        <input type="radio" name="quiz_3" id="quiz_3" value="d"> Containers
+        <input type="radio" name="quiz_2" id="quiz_2" value="d"> Expert
         </label>
         </div>
-        <br/>
-        4. Which Kubernetes object manages external access to the services in a cluster, typically via HTTP?<br/>
-        <div class="radio">
-        <label>
-        <input type="radio" name="quiz_4" id="quiz_4" value="a" required> Deployment
-        </label>
-        </div>
-        <div class="radio">
-        <label>
-        <input type="radio" name="quiz_4" id="quiz_4" value="b"> ReplicaSet
-        </label>
-        </div>
-        <div class="radio">
-        <label>
-        <input type="radio" name="quiz_4" id="quiz_4" value="c"> Ingress
-        </label>
-        </div>
-        <div class="radio">
-        <label>
-        <input type="radio" name="quiz_4" id="quiz_4" value="d"> Volume
-        </label>
-        </div>
-        <br/>  
-        5. Your application exposed one service, accessible from outside of the cluster. Which port type did it use?<br/>
-        <div class="radio">
-        <label>
-        <input type="radio" name="quiz_5" id="quiz_5" value="a" required> ClusterIP
-        </label>
-        </div>
-        <div class="radio">
-        <label>
-        <input type="radio" name="quiz_5" id="quiz_5" value="b"> NodePort
-        </label>
-        </div>
-        <div class="radio">
-        <label>
-        <input type="radio" name="quiz_5" id="quiz_5" value="c"> LoadBalancer
-        </label>
-        </div> 
-        <div class="radio">
-        <label>
-        <input type="radio" name="quiz_5" id="quiz_5" value="d"> ExternalName
-        </label>
-        </div> 
         <br/>
         <br/>
             <div class="checkbox">
             <label>
-      		<input type="checkbox" name="interested" value="Yes" checked>&nbsp;IBM may use my contact data to keep me informed of products, services and offerings.
+      		<input type="checkbox" name="interested" value="Yes" checked>&nbsp;Submit the quiz to get your IBM Cloud account activated
    			</label>
  			</div>
         <br/>
