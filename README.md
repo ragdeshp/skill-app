@@ -1,6 +1,6 @@
 # Deploy simple Quiz application and take the quiz
 
-[Deploy to IBM Cloud](https://cloud.ibm.com/devops/setup/deploy?repository=https://github.com/ragdeshp/simple-quiz-app.git)
+[Deploy to IBM Cloud](https://cloud.ibm.com/devops/setup/deploy?repository=https://github.com/ragdeshp/skill-app.git)
 
 1. Press the above `Deploy to IBM Cloud` button and then...
 
