@@ -1,4 +1,4 @@
-# Deploy simple Quiz application and take the quiz
+# Deploy simple application and submit the Questionnaire
 
 [Deploy to IBM Cloud](https://cloud.ibm.com/devops/setup/deploy?repository=https://github.com/ragdeshp/skill-app.git)
 
