@@ -14,8 +14,8 @@
 
     <div class="container">
         <div class="py-5 text-center">
-        <h2>IBM Workshop Quiz</h2>
-        <p class="lead">Answer the multiple choice questions to get ready for workshop!</p>
+        <h2>IBM Workshop Activation!</h2>
+        <p class="lead">Answer these simple questions to get ready for workshop!</p>
         </div>
         <form method="POST" action="/quizsubmission">
         <p class="lead"></p>
@@ -23,56 +23,61 @@
         Enter your Email ID:<br/>
         <input type="text" id="cloudemail" name="cloudemail" class="form-control" placeholder="Please enter your IBM Cloud Email ID" required>
         <br/>
-        1. What are your areas of Interest?<br/>
+        1. What is your area of Interest?<br/>
         <div class="radio">
         <label>
-        <input type="radio" name="quiz_1" id="quiz_1" value="a" required> Artificial Intelligence
+        <input type="radio" name="quiz_1" id="quiz_1" value="Artificial Intelligence" required> Artificial Intelligence
         </label>
         </div>
         <div class="radio">
         <label>
-        <input type="radio" name="quiz_1" id="quiz_1" value="b"> Data Science
+        <input type="radio" name="quiz_1" id="quiz_1" value="Data Science"> Data Science
         </label>
         </div>
         <div class="radio">
         <label>
-        <input type="radio" name="quiz_1" id="quiz_1" value="c"> Analytics
+        <input type="radio" name="quiz_1" id="quiz_1" value="Analytics"> Analytics
         </label>
         </div>
         <div class="radio">
         <label>
-        <input type="radio" name="quiz_1" id="quiz_1" value="d"> Blockchain
+        <input type="radio" name="quiz_1" id="quiz_1" value="Blockchain"> Blockchain
         </label>
         </div>
         <br/>
         2. Provide your experience level for above skill?<br/>
         <div class="radio">
         <label>
-        <input type="radio" name="quiz_2" id="quiz_2" value="a" required> Beginner
+        <input type="radio" name="quiz_2" id="quiz_2" value="Beginner" required> Beginner
         </label>
         </div>
         <div class="radio">
         <label>
-        <input type="radio" name="quiz_2" id="quiz_2" value="b"> Intermediate
+        <input type="radio" name="quiz_2" id="quiz_2" value="Intermediate"> Intermediate
         </label>
         </div>
         <div class="radio">
         <label>
-        <input type="radio" name="quiz_2" id="quiz_2" value="c"> Advanced
+        <input type="radio" name="quiz_2" id="quiz_2" value="Advanced"> Advanced
         </label>
         </div>
         <div class="radio">
         <label>
-        <input type="radio" name="quiz_2" id="quiz_2" value="d"> Expert
+        <input type="radio" name="quiz_2" id="quiz_2" value="Expert"> Expert
         </label>
         </div>
         <br/>
-        <br/>
-            <div class="checkbox">
-            <label>
-      		<input type="checkbox" name="interested" value="Yes" checked>&nbsp;Submit the quiz to get your IBM Cloud account activated
-   			</label>
- 			</div>
+        3. Do you have a github account?<br/>
+        <div class="radio">
+        <label>
+        <input type="radio" name="quiz_3" id="quiz_3" value="Yes" required> Yes
+        </label>
+        </div>
+        <div class="radio">
+        <label>
+        <input type="radio" name="quiz_3" id="quiz_3" value="No"> No
+        </label>
+        </div>
         <br/>
         <input type="submit" value="Submit Quiz" class="btn btn-primary btn-lg"/>
         </form>
